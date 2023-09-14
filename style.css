@@ -1,16 +1,16 @@
 body{
     position: fixed;
-    background-color: black;
+    background-color:black;
 }
 
 h1{
-    color: red;
+    color: white;
     font-size: 40px;
     font-weight: 500;
 }
 
 p{
-    color:aqua;
+    color:blue;
     font-size: 60px;
     font-weight: 600;
 
@@ -18,7 +18,7 @@ p{
 
 li{
     list-style: none;
-    background-color: red;
+    background-color: green;
     font-size:30px;
     
 }
