@@ -13,5 +13,12 @@ p{
     color:aqua;
     font-size: 60px;
     font-weight: 600;
+
+}
+
+li{
+    list-style: none;
+    background-color: red;
+    font-size:30px;
     
 }
