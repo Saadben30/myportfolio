@@ -88,6 +88,7 @@ header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
+
 }
 
 .button{
@@ -140,4 +141,9 @@ margin-top: 100px;
                 color:white;
                 transition: 1s;
             }
+
+footer{
+    display: flex;
+    background-color: red;
+}
 
