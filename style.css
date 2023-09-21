@@ -86,9 +86,9 @@ header{
 .description{
     color: black;
     font-size: 1.4em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+    font-family:'cursive','sans serif';
     letter-spacing: 2px;
+    font-weight: 700;
 
 }
 
@@ -112,6 +112,8 @@ margin-top: 100px;
     padding: 10px 20px ;
     align-items: center;
     margin-right: 50px;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .icon a{
@@ -121,8 +123,8 @@ margin-top: 100px;
 
 .icon a:hover{
     color:red;
-    font-size: 30px;
-    transition: 0.5s;
+    font-size: 45px;
+    transition: 0.3s;
 }
 
 .mywork-button{
