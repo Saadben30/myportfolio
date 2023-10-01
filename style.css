@@ -8,7 +8,9 @@ font-family: 'Poppins', sans-serif;
 body{
     margin: 0px;
     padding: 0px;
-    background-color:black;
+       
+    background-image: url(image/hack.jpg);
+    /*background-color:black;*/
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -16,16 +18,21 @@ body{
 }
 
 header{
-    background-color:black;
+    /*background-color:black;*/
     display: flex;
+    position: fixed;
+    width: 100%;
+    top:0px;
     justify-content:space-between;
     align-items: center;
+    overflow: hidden;
 }   
 
 .logo{
     color: white;
     justify-content: flex-start;
-    margin: 20px 0px;
+    margin: 
+    0px 0px;
     margin-left: 150px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -46,13 +53,13 @@ header{
 }
 
 .navigateur a:hover{
-   color: yellow;
+   color: red;
     transition: 0.7s;
 }
 
 .main{
     display: flex;
-    background-color:black;
+    /*background-color:black;*/
     margin: 30px 0px;
 }
 
@@ -63,7 +70,7 @@ header{
 }
 
 .im{
-    color: yellow;
+    color:red;
     font-size:2.9em;
     font-weight: 600;
     
@@ -78,7 +85,7 @@ header{
 }
 
 .content{
-    color: yellow;
+    color: red;
     font-size: 30px;
     letter-spacing: 3px;
 }
@@ -122,8 +129,8 @@ color:white;
     color:black;
     margin-right:20px;
     font-size: 30px;
-    background-color:yellow;
-    border: 2px solid yellow;
+    background-color:red;
+    border: 2px solid red;
     border-radius: 50%;
     padding: 8px 8px;
 }
@@ -139,12 +146,12 @@ color:white;
             border:none;
             font-size: 1em;
             text-decoration: none;
-            background-color: yellow;
+            background-color: red;
             color: black;
             align-items: center;
             padding: 20px;
             border-radius: 60% 20%;
-            border: 2px solid yellow;
+            border: 2px solid red;
 
 }
 
@@ -157,7 +164,7 @@ color:white;
         }
 
 footer{
-    background-color: black;
+    /*background-color: black;*/
 }
 
 .list{
@@ -184,7 +191,7 @@ li{
 }
 
  a:hover{
-    color:yellow;
+    color:red;
     /*color: rgb(118, 118, 118);*/
     transition: 0.7s;
 }
@@ -210,8 +217,8 @@ li{
 
 .icon2 a {
     color: black;
-    background-color: yellow;
-    border: solid 2px yellow;
+    background-color: red;
+    border: solid 2px red;
     border-radius: 50%;
     margin: 10px;
     padding: 10px 10px;
@@ -230,3 +237,4 @@ li{
     padding: 10px 10px;
     font-size: 20px;
 }
+
