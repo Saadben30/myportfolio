@@ -8,7 +8,8 @@ font-family: 'Poppins', sans-serif;
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(image/hack.jpg);
+    /* background-image: url(image/hack.jpg); */
+    background-color: black;
     background-color:black;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -236,3 +237,41 @@ li{
     font-size: 20px;
 }
 
+section.part_slide{
+    display: flex;
+    background-color:aqua;
+}
+
+h1.my_project{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+div.slides{
+    display: flex;
+    margin: 10px 10px 10px 10px ;
+    padding-left:100px ;
+}
+div.slide1{
+    background-color: white ;
+    width: 100px;
+    height: 100px;
+    display: flex;   
+}
+
+div.slide2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+div.slide3{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
